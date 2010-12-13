@@ -1,3 +1,0 @@
-2006-12-31 
-[MOD] Changed license to BSD
-[FIX] Made input of "Data Changed" required
