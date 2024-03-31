@@ -28,57 +28,8 @@
 			</Item>
 			<Item Name="install scripts" Type="Folder"/>
 			<Item Name="library" Type="Folder">
-				<Item Name="Data Changed" Type="Folder">
-					<Item Name="1D Boolean Array Changed.vi" Type="VI" URL="../source/library/Data Changed/1D Boolean Array Changed.vi"/>
-					<Item Name="1D CDB Array Changed.vi" Type="VI" URL="../source/library/Data Changed/1D CDB Array Changed.vi"/>
-					<Item Name="1D CSG Array Changed.vi" Type="VI" URL="../source/library/Data Changed/1D CSG Array Changed.vi"/>
-					<Item Name="1D CXT Array Changed.vi" Type="VI" URL="../source/library/Data Changed/1D CXT Array Changed.vi"/>
-					<Item Name="1D DBL Array Changed.vi" Type="VI" URL="../source/library/Data Changed/1D DBL Array Changed.vi"/>
-					<Item Name="1D EXT Array Changed.vi" Type="VI" URL="../source/library/Data Changed/1D EXT Array Changed.vi"/>
-					<Item Name="1D I16 Array Changed.vi" Type="VI" URL="../source/library/Data Changed/1D I16 Array Changed.vi"/>
-					<Item Name="1D I32 Array Changed.vi" Type="VI" URL="../source/library/Data Changed/1D I32 Array Changed.vi"/>
-					<Item Name="1D I8 Array Changed.vi" Type="VI" URL="../source/library/Data Changed/1D I8 Array Changed.vi"/>
-					<Item Name="1D Path Array Changed.vi" Type="VI" URL="../source/library/Data Changed/1D Path Array Changed.vi"/>
-					<Item Name="1D SGL Array Changed.vi" Type="VI" URL="../source/library/Data Changed/1D SGL Array Changed.vi"/>
-					<Item Name="1D String Array Changed.vi" Type="VI" URL="../source/library/Data Changed/1D String Array Changed.vi"/>
-					<Item Name="1D U16 Array Changed.vi" Type="VI" URL="../source/library/Data Changed/1D U16 Array Changed.vi"/>
-					<Item Name="1D U32 Array Changed.vi" Type="VI" URL="../source/library/Data Changed/1D U32 Array Changed.vi"/>
-					<Item Name="1D U8 Array Changed.vi" Type="VI" URL="../source/library/Data Changed/1D U8 Array Changed.vi"/>
-					<Item Name="1D Variant Array Changed.vi" Type="VI" URL="../source/library/Data Changed/1D Variant Array Changed.vi"/>
-					<Item Name="2D Boolean Array Changed.vi" Type="VI" URL="../source/library/Data Changed/2D Boolean Array Changed.vi"/>
-					<Item Name="2D CDB Array Changed.vi" Type="VI" URL="../source/library/Data Changed/2D CDB Array Changed.vi"/>
-					<Item Name="2D CSG Array Changed.vi" Type="VI" URL="../source/library/Data Changed/2D CSG Array Changed.vi"/>
-					<Item Name="2D CXT Array Changed.vi" Type="VI" URL="../source/library/Data Changed/2D CXT Array Changed.vi"/>
-					<Item Name="2D DBL Array Changed.vi" Type="VI" URL="../source/library/Data Changed/2D DBL Array Changed.vi"/>
-					<Item Name="2D EXT Array Changed.vi" Type="VI" URL="../source/library/Data Changed/2D EXT Array Changed.vi"/>
-					<Item Name="2D I16 Array Changed.vi" Type="VI" URL="../source/library/Data Changed/2D I16 Array Changed.vi"/>
-					<Item Name="2D I32 Array Changed.vi" Type="VI" URL="../source/library/Data Changed/2D I32 Array Changed.vi"/>
-					<Item Name="2D I8 Array Changed.vi" Type="VI" URL="../source/library/Data Changed/2D I8 Array Changed.vi"/>
-					<Item Name="2D Path Array Changed.vi" Type="VI" URL="../source/library/Data Changed/2D Path Array Changed.vi"/>
-					<Item Name="2D SGL Array Changed.vi" Type="VI" URL="../source/library/Data Changed/2D SGL Array Changed.vi"/>
-					<Item Name="2D String Array Changed.vi" Type="VI" URL="../source/library/Data Changed/2D String Array Changed.vi"/>
-					<Item Name="2D U16 Array Changed.vi" Type="VI" URL="../source/library/Data Changed/2D U16 Array Changed.vi"/>
-					<Item Name="2D U32 Array Changed.vi" Type="VI" URL="../source/library/Data Changed/2D U32 Array Changed.vi"/>
-					<Item Name="2D U8 Array Changed.vi" Type="VI" URL="../source/library/Data Changed/2D U8 Array Changed.vi"/>
-					<Item Name="2D Variant Array Changed.vi" Type="VI" URL="../source/library/Data Changed/2D Variant Array Changed.vi"/>
-					<Item Name="Boolean Changed.vi" Type="VI" URL="../source/library/Data Changed/Boolean Changed.vi"/>
-					<Item Name="CDB Changed.vi" Type="VI" URL="../source/library/Data Changed/CDB Changed.vi"/>
-					<Item Name="CSG Changed.vi" Type="VI" URL="../source/library/Data Changed/CSG Changed.vi"/>
-					<Item Name="CXT Changed.vi" Type="VI" URL="../source/library/Data Changed/CXT Changed.vi"/>
-					<Item Name="DBL Changed.vi" Type="VI" URL="../source/library/Data Changed/DBL Changed.vi"/>
-					<Item Name="EXT Changed.vi" Type="VI" URL="../source/library/Data Changed/EXT Changed.vi"/>
-					<Item Name="I16 Changed.vi" Type="VI" URL="../source/library/Data Changed/I16 Changed.vi"/>
-					<Item Name="I32 Changed.vi" Type="VI" URL="../source/library/Data Changed/I32 Changed.vi"/>
-					<Item Name="I8 Changed.vi" Type="VI" URL="../source/library/Data Changed/I8 Changed.vi"/>
-					<Item Name="SGL Changed.vi" Type="VI" URL="../source/library/Data Changed/SGL Changed.vi"/>
-					<Item Name="String Changed.vi" Type="VI" URL="../source/library/Data Changed/String Changed.vi"/>
-					<Item Name="U16 Changed.vi" Type="VI" URL="../source/library/Data Changed/U16 Changed.vi"/>
-					<Item Name="U32 Changed.vi" Type="VI" URL="../source/library/Data Changed/U32 Changed.vi"/>
-					<Item Name="U8 Changed.vi" Type="VI" URL="../source/library/Data Changed/U8 Changed.vi"/>
-					<Item Name="Variant Changed.vi" Type="VI" URL="../source/library/Data Changed/Variant Changed.vi"/>
-				</Item>
-				<Item Name="Data Changed.vi" Type="VI" URL="../source/library/Data Changed.vi"/>
 				<Item Name="VI Tree - comparison.vi" Type="VI" URL="../source/library/VI Tree - comparison.vi"/>
+				<Item Name="openg_comparison.lvlib" Type="Library" URL="../source/library/openg_comparison.lvlib"/>
 			</Item>
 			<Item Name="user docs" Type="Folder">
 				<Item Name="License Agreement.txt" Type="Document" URL="../source/user docs/License Agreement.txt"/>
@@ -89,6 +40,7 @@
 		<Item Name="tests" Type="Folder">
 			<Item Name="excluded_vis.txt" Type="Document" URL="../tests/excluded_vis.txt"/>
 			<Item Name="TEST - Data Changed.vi" Type="VI" URL="../tests/TEST - Data Changed.vi"/>
+			<Item Name="test_openg_comparison.lvlib" Type="Library" URL="../tests/test_openg_comparison.lvlib"/>
 		</Item>
 		<Item Name="test.vi" Type="VI" URL="../test.vi"/>
 		<Item Name="Package Dependencies" Type="IIO Ladder Diagram">
